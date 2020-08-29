@@ -1,0 +1,35 @@
+=============== Aug 28, 2020 (CDT) ===============
+18:10:38.221000 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:10:38.225988 db@open opening
+18:10:38.227984 version@stat F·[] S·0B[] Sc·[]
+18:10:38.230976 db@janitor F·2 G·0
+18:10:38.230976 db@open done T·4.9875ms
+19:23:38.253169 memdb@flush N·37450 S·3MiB
+19:23:38.272473 memdb@flush created L0@3 N·37450 S·614KiB "loc..seq,v22":"version,v1"
+19:23:38.272473 version@stat F·[1] S·614KiB[614KiB] Sc·[0.25]
+19:23:38.275503 memdb@flush committed F·1 T·22.3339ms
+19:23:38.276461 journal@remove removed @1
+20:22:38.258577 memdb@flush N·37336 S·3MiB
+20:22:38.287498 memdb@flush created L0@5 N·37336 S·588KiB "n:\x00..:v4,v56381":"n:\xfc..ong,v51981"
+20:22:38.288496 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+20:22:38.296473 memdb@flush committed F·1 T·37.8962ms
+20:22:38.298469 journal@remove removed @2
+20:23:08.244861 table@compaction L0·2 -> L1·0 S·1MiB Q·74949
+20:23:08.281762 table@build created L1@6 N·8562 S·347KiB "loc..seq,v22":"version,v1"
+20:23:08.281762 version@stat F·[0 1] S·347KiB[0B 347KiB] Sc·[0.00 0.00]
+20:23:08.291736 table@compaction committed F-1 S-855KiB Ke·0 D·66224 T·46.8754ms
+20:23:08.292734 table@remove removed @5
+20:23:08.293731 table@remove removed @3
+21:22:08.261920 memdb@flush N·37178 S·3MiB
+21:22:08.288843 memdb@flush created L0@8 N·37178 S·581KiB "n:\x00..:v4,v84434":"n:\xff..ong,v98334"
+21:22:08.288843 version@stat F·[1 1] S·928KiB[581KiB 347KiB] Sc·[0.25 0.00]
+21:22:08.291881 memdb@flush committed F·1 T·29.9608ms
+21:22:08.291881 journal@remove removed @4
+21:23:10.140548 table@compaction L0·1 -> L1·1 S·928KiB Q·112650
+21:23:10.180473 table@build created L1@9 N·11831 S·478KiB "loc..seq,v22":"version,v1"
+21:23:10.180473 version@stat F·[0 1] S·478KiB[0B 478KiB] Sc·[0.00 0.00]
+21:23:10.183581 table@compaction committed F-1 S-450KiB Ke·0 D·33909 T·43.0327ms
+21:23:10.183581 table@remove removed @8
+21:23:10.184426 table@remove removed @6
+22:18:18.797912 db@close closing
+22:18:18.809962 db@close done T·12.0501ms
