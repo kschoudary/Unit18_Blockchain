@@ -2,8 +2,6 @@
 Blockchain Transactions using Puppeth and Geth
 KS, 8/27/2020 - Homework#18-BlockChain
 
-Note: As per project requirments, I used the 'proof-of-authority'. And with this option, my transaction staus of the transfer is 'Pending'. Theany confirmations or  'proof-of-authority' option is preventing node1 from mining which is why I am not getting any confirmations. This is reported to class instructor and almost all the students have similar issues with this option.
-
 Introduction: 
 This document explains the detailed steps followed for submitting the Homework for the project - Unit18_Blockchain.
 Detailed Steps:
@@ -81,9 +79,9 @@ Wallet Info:
 		Amount to Transfer 15 ETH
 		Your TX has been broadcast to the network. It is waiting to be mined & confirmed. During ICOs, it may take 3+ hours to confirm. Use the Verify & Check buttons below to see. TX Hash:0x50bcbfbcb124736af0664216a44a585ac583a24ee07c32aeccc1563a2f8f50a6
 		Hash: 0x50bcbfbcb124736af0664216a44a585ac583a24ee07c32aeccc1563a2f8f50a6
- 
+ 	Transfer Status: Pending
  
-
+Note: As per project requirments, I used the 'proof-of-authority'. And with this option, my transaction staus of the transfer is 'Pending'. Theany confirmations or  'proof-of-authority' option is preventing node1 from mining which is why I am not getting any confirmations. This is reported to class instructor and almost all the students have similar issues with this option.
 
  
 
